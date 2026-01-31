@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos | CS Infraestructura</title>
+    <meta name="description" content="Portafolio de proyectos de infraestructura industrial. Más de 100 proyectos completados en Chile.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="page-transition"></div>
+
+    <!-- Navigation -->
+    <nav class="nav nav-dark" id="nav">
+        <div class="nav-container">
+            <a href="./index.html" class="nav-logo">
+                <img src="./images/logo.png" alt="Constructora Silva" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="./servicios.html">Servicios</a>
+                <a href="./proyectos.html" class="active">Proyectos</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./proceso.html">Proceso</a>
+                <a href="./contacto.html" class="nav-cta">Cotizar Proyecto</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="./servicios.html">Servicios</a>
+            <a href="./proyectos.html">Proyectos</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./proceso.html">Proceso</a>
+            <a href="./contacto.html" class="mobile-cta">Cotizar Proyecto</a>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <div class="breadcrumb" data-animate="fade-up">
+                <a href="./index.html">Inicio</a>
+                <span>/</span>
+                <span class="breadcrumb-current">Proyectos</span>
+            </div>
+            <span class="section-tag" data-animate="fade-up" data-delay="100">Portafolio</span>
+            <h1 class="section-title" data-animate="fade-up" data-delay="200">Proyectos que Demuestran<br><span class="text-accent">Nuestra Capacidad</span></h1>
+            <p class="section-subtitle" data-animate="fade-up" data-delay="300">Más de 100 proyectos completados en 24 años de trayectoria. Explore nuestra experiencia en infraestructura industrial.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" style="background: var(--color-white);">
+        <div class="section-container">
+            <div class="projects-filter" data-animate="fade-up">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+                <button class="filter-btn" data-filter="frigorifico">Frigoríficos</button>
+                <button class="filter-btn" data-filter="institucional">Institucional</button>
+                <button class="filter-btn" data-filter="infraestructura">Infraestructura</button>
+            </div>
+            
+            <div class="projects-grid">
+                <a href="./proyectos/centro-logistico.html" class="project-card project-large" data-category="industrial" data-animate="fade-up">
+                    <img src="./images/nave-2.jpg" alt="Centro logístico industrial" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Industrial</span>
+                        <h3>Centro Logístico</h3>
+                        <p>Estructura metálica de gran escala para operaciones logísticas</p>
+                    </div>
+                </a>
+                
+                <a href="./proyectos/puente-industrial.html" class="project-card" data-category="infraestructura" data-animate="fade-up" data-delay="100">
+                    <img src="./images/puente-1.jpg" alt="Puente de infraestructura" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Infraestructura</span>
+                        <h3>Puente Industrial</h3>
+                        <p>Estructura de acero de alta complejidad técnica</p>
+                    </div>
+                </a>
+                
+                <a href="./proyectos/estanques-industriales.html" class="project-card" data-category="frigorifico" data-animate="fade-up" data-delay="200">
+                    <img src="./images/infraestructura-1.jpg" alt="Estructura de estación" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Infraestructura</span>
+                        <h3>Estación de Transporte</h3>
+                        <p>Cubierta metálica de gran luz</p>
+                    </div>
+                </a>
+                
+                <a href="./proyectos/nave-industrial.html" class="project-card" data-category="industrial" data-animate="fade-up" data-delay="100">
+                    <img src="./images/nave-1.jpg" alt="Nave industrial" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Industrial</span>
+                        <h3>Nave Industrial</h3>
+                        <p>Construcción estructural completa para manufactura</p>
+                    </div>
+                </a>
+                
+                <a href="./proyectos/montaje-estructural.html" class="project-card project-tall" data-category="industrial" data-animate="fade-up" data-delay="200">
+                    <img src="./images/puente-2.jpg" alt="Montaje estructural" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Industrial</span>
+                        <h3>Montaje Estructural</h3>
+                        <p>Instalación con equipo especializado en altura</p>
+                    </div>
+                </a>
+                
+                <a href="./proyectos/planta-fabricacion.html" class="project-card" data-category="infraestructura" data-animate="fade-up" data-delay="300">
+                    <img src="./images/nave-4.jpg" alt="Fabricación de estructuras" loading="lazy">
+                    <div class="project-overlay">
+                        <span class="project-category">Fabricación</span>
+                        <h3>Planta de Fabricación</h3>
+                        <p>Partner estratégico Hangzhou Famous Steel</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="section-container">
+            <h2 class="section-title" data-animate="fade-up">¿Su Proyecto Podría Ser el Próximo?</h2>
+            <p data-animate="fade-up" data-delay="100">Únase a nuestra lista de más de 100 proyectos exitosos.</p>
+            <a href="./contacto.html" class="btn btn-outline-white btn-lg" data-animate="fade-up" data-delay="200">Comencemos su Proyecto</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./images/logo.png" alt="Constructora Silva" class="logo-img">
+                    </div>
+                    <p>Especialistas en infraestructura industrial en Chile. Proyectos complejos que otras constructoras evitan.</p>
+                    <div class="footer-legal">
+                        <span>CS Infraestructura SpA</span>
+                        <span>RUT: 76.600.519-5</span>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="./servicios/frigorificos.html">Frigoríficos Industriales</a></li>
+                        <li><a href="./servicios/plantas-tratamiento.html">Plantas de Tratamiento</a></li>
+                        <li><a href="./servicios/construccion-institucional.html">Construcción Institucional</a></li>
+                        <li><a href="./servicios/infraestructura-industrial.html">Infraestructura Industrial</a></li>
+                        <li><a href="./servicios/habilitaciones.html">Habilitaciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="./proyectos.html">Proyectos</a></li>
+                        <li><a href="./proceso.html">Proceso</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>Nueva Tajamar 481 N° 908<br>Las Condes, Santiago, Chile</p>
+                    <p><a href="tel:+56942276621">+56 9 4227 6621</a></p>
+                    <p><a href="/cdn-cgi/l/email-protection#2c454b424d4f45436c494f435f455c4e434d5e48024f40"><span class="__cf_email__" data-cfemail="68010f06090b0107280d0b071b01180a07091a0c460b04">[email&#160;protected]</span></a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CS Infraestructura SpA. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Cond               div class="footer-bottom-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | CS Infraestructura</title>
+    <meta name="description" content="Servicios de construcción de infraestructura industrial. Frigoríficos, plantas de tratamiento, construcción institucional, desarrollo comercial y más.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="page-transition"></div>
+
+    <!-- Navigation -->
+    <nav class="nav nav-dark" id="nav">
+        <div class="nav-container">
+            <a href="./index.html" class="nav-logo">
+                <img src="./images/logo.png" alt="Constructora Silva" class="logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="./servicios.html" class="active">Servicios</a>
+                <a href="./proyectos.html">Proyectos</a>
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./proceso.html">Proceso</a>
+                <a href="./contacto.html" class="nav-cta">Cotizar Proyecto</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="./servicios.html">Servicios</a>
+            <a href="./proyectos.html">Proyectos</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./proceso.html">Proceso</a>
+            <a href="./contacto.html" class="mobile-cta">Cotizar Proyecto</a>
+        </div>
+    </div>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <div class="breadcrumb" data-animate="fade-up">
+                <a href="./index.html">Inicio</a>
+                <span>/</span>
+                <span class="breadcrumb-current">Servicios</span>
+            </div>
+            <span class="section-tag" data-animate="fade-up" data-delay="100">Nuestros Servicios</span>
+            <h1 class="section-title" data-animate="fade-up" data-delay="200">Soluciones Integrales en<br><span class="text-accent">Infraestructura Industrial</span></h1>
+            <p class="section-subtitle" data-animate="fade-up" data-delay="300">Desde el diseño hasta la construcción completa. Capacidad técnica in-house para proyectos de cualquier complejidad.</p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services" style="background: var(--color-white);">
+        <div class="section-container">
+            <div class="services-grid">
+                <a href="./servicios/frigorificos.html" class="service-card service-featured" data-animate="fade-up">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="8" y="20" width="48" height="36" rx="2"/>
+                            <path d="M8 32h48"/>
+                            <path d="M20 8v12M44 8v12"/>
+                            <circle cx="32" cy="44" r="8"/>
+                            <path d="M32 40v8M28 44h8"/>
+                        </svg>
+                    </div>
+                    <div class="service-badge">⭐ Especialidad #1</div>
+                    <h3>Frigoríficos Industriales</h3>
+                    <p>Diseño y construcción de instalaciones frigoríficas completas. Sistemas de refrigeración, aislamiento especializado, cumplimiento normativo. <strong>Ninguna constructora general tiene esta expertise.</strong></p>
+                    <ul class="service-features">
+                        <li>Plantas de procesamiento de alimentos</li>
+                        <li>Almacenamiento en frío industrial</li>
+                        <li>Sistemas de refrigeración complejos</li>
+                    </ul>
+                    <span class="service-link">
+                        Ver detalles completos
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="./servicios/plantas-tratamiento.html" class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M32 8v48"/>
+                            <path d="M16 24h32"/>
+                            <rect x="12" y="32" width="16" height="24" rx="2"/>
+                            <rect x="36" y="32" width="16" height="24" rx="2"/>
+                            <circle cx="20" cy="44" r="4"/>
+                            <circle cx="44" cy="44" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Plantas de Tratamiento y Estanques</h3>
+                    <p>Diseño y construcción de plantas de tratamiento de agua y estanques industriales. Gestión integral del agua para operaciones industriales de gran escala.</p>
+                    <span class="service-link">
+                        Ver detalles
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="./servicios/construccion-institucional.html" class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M8 56h48"/>
+                            <path d="M12 56V24l20-16 20 16v32"/>
+                            <rect x="24" y="36" width="16" height="20"/>
+                            <path d="M20 28h8M36 28h8"/>
+                        </svg>
+                    </div>
+                    <h3>Construcción Institucional</h3>
+                    <p>Universidades, colegios e instituciones educacionales. Experiencia comprobada con 3 universidades completadas incluyendo INACAP.</p>
+                    <span class="service-link">
+                        Ver detalles
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="./servicios/infraestructura-industrial.html" class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="8" y="16" width="48" height="40" rx="2"/>
+                            <path d="M8 28h48"/>
+                            <path d="M24 16v-8h16v8"/>
+                            <path d="M20 40h24M20 48h16"/>
+                        </svg>
+                    </div>
+                    <h3>Infraestructura Industrial</h3>
+                    <p>Centros logísticos, bodegas, instalaciones de manufactura. Construcción a gran escala con estructuras metálicas de alta calidad.</p>
+                    <span class="service-link">
+                        Ver detalles
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="./servicios/desarrollo-comercial.html" class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="8" y="8" width="48" height="48" rx="4"/>
+                            <path d="M8 20h48"/>
+                            <path d="M20 8v12"/>
+                            <path d="M44 8v12"/>
+                            <rect x="16" y="28" width="12" height="8" rx="1"/>
+                            <rect x="36" y="28" width="12" height="8" rx="1"/>
+                            <rect x="16" y="42" width="32" height="8" rx="1"/>
+                        </svg>
+                    </div>
+                    <h3>Desarrollo Comercial</h3>
+                    <p>Centros de logística, retail e infraestructura comercial. Proyectos adaptados a necesidades específicas del negocio y optimización de espacios.</p>
+                    <span class="service-link">
+                        Ver detalles
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+
+                <a href="./servicios/habilitaciones.html" class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="8" y="20" width="48" height="36" rx="2"/>
+                            <path d="M8 32h48"/>
+                            <rect x="16" y="40" width="8" height="8"/>
+                            <rect x="28" y="40" width="8" height="8"/>
+                            <rect x="40" y="40" width="8" height="8"/>
+                            <path d="M24 8l8 12 8-12"/>
+                        </svg>
+                    </div>
+                    <h3>Habilitaciones</h3>
+                    <p>Construcción y remodelación de oficinas corporativas. Interiores comerciales con acabados de alta calidad y diseño funcional.</p>
+                    <span class="service-link">
+                        Ver detalles
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="section-container">
+            <h2 class="section-title" data-animate="fade-up">¿Tiene un Proyecto en Mente?</h2>
+            <p data-animate="fade-up" data-delay="100">Contáctenos para discutir cómo podemos ayudarle con su proyecto de infraestructura.</p>
+            <a href="./contacto.html" class="btn btn-outline-white btn-lg" data-animate="fade-up" data-delay="200">Solicitar Cotización</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./images/logo.png" alt="Constructora Silva" class="logo-img">
+                    </div>
+                    <p>Especialistas en infraestructura industrial en Chile. Proyectos complejos que otras constructoras evitan.</p>
+                    <div class="footer-legal">
+                        <span>CS Infraestructura SpA</span>
+                        <span>RUT: 76.600.519-5</span>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="./servicios/frigorificos.html">Frigoríficos Industriales</a></li>
+                        <li><a href="./servicios/plantas-tratamiento.html">Plantas de Tratamiento</a></li>
+                        <li><a href="./servicios/construccion-institucional.html">Construcción Institucional</a></li>
+                        <li><a href="./servicios/infraestructura-industrial.html">Infraestructura Industrial</a></li>
+                        <li><a href="./servicios/habilitaciones.html">Habilitaciones</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="./nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="./proyectos.html">Proyectos</a></li>
+                        <li><a href="./proceso.html">Proceso</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>Nueva Tajamar 481 N° 908<br>Las Condes, Santiago, Chile</p>
+                    <p><a href="tel:+56942276621">+56 9 4227 6621</a></p>
+                    <p><a href="/cdn-cgi/l/email-protection#bbd2dcd5dad8d2d4fbded8d4c8d2cbd9d4dac9df95d8d7"><span class="__cf_email__" data-cfemail="046d636a65676d6b4461676b776d74666b6576602a6768">[email&#160;protected]</span></a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CS Infraestructura SpA. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Conddiv class="footer-bottom-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
